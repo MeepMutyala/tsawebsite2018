@@ -19,6 +19,7 @@ homeheader{
 	.container {
 		margin-left: auto;
 		margin-right: auto;
+		width: auto;
 		padding: 20px;
 		margin-top: 0px;
 		padding-top: 0px;
@@ -57,6 +58,23 @@ div.textboxright{
   width: 800px;
   text-align: left;
   
+}
+
+div.textboxbottom{
+  margin: 300px 50px 50px 50px;
+  padding: 20px 20px 20px 20px;
+  background-color: #848484;
+  border: 5px solid grey;
+  background-color:rgba(0,255,0,0.5);
+  float: left;
+  height: 300px;
+  width: 800px;
+  text-align: left;
+  
+}
+
+div.textboxleft ul{
+	margin: 10px;
 }
 
 /* header */
@@ -182,20 +200,22 @@ header a:hover{
   background-size: cover;
   text-align: center;
   color: #ffffff;
-
+	border-bottom: 8px solid blue;
+	
 }
 
 #middle {
   min-height: 700px;
-  background:url('../images/sampleimage1.jpg') no-repeat center;
+  background:url('../images/computerlabblur.jpg') no-repeat center;
   background-size: cover;
   text-align: center;
   color: #ffffff;
+	border-bottom: 8px solid red;
 }
 
 #bottom {
   min-height: 700px;
-  background:url('../images/sampleimage1.jpg') no-repeat center;
+  background:url('../images/engineeringclassroomblur.jpg') no-repeat center;
   background-size: cover;
   text-align: center;
   color: #ffffff;
@@ -209,14 +229,20 @@ image.logo {
 
 div.bigdiv {
 	margin: auto;
-
-  background-color:  #353637;
   border: 5px solid grey;
   background-color:rgba(0,0,255,0.5);
   padding: 20px 20px 50px 0px;  text-align: left;
 	width: 1350px;
 }
 
+div.graydiv {
+	margin: auto;
+
+  background-color:  #353637;
+  border: 5px solid grey;
+  padding: 20px 20px 50px 0px;  text-align: left;
+	width: 1350px;
+}
 
 img.right{
 	float: right;
@@ -287,6 +313,22 @@ footer.subpage{
 }
 
 /* Officer Team Page */
-.officer {
-	float: 
+img.officer {
+
+	transform: rotate(-90deg);
+}
+
+
+.imagesTableRow{
+  display: 				table-row;
+}
+
+.imagesTableCell{
+  display: 				table-cell;
+  padding: 				5px;
+	height: 200px;
+}
+
+#imagesTable{
+	margin-top: 80px;
 }
