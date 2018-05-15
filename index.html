@@ -1,108 +1,105 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8" />
-<meta name="viewport">
-<meta name="description" content="TSA Webmaster 2018">
-<title>AZCA Tech | Home</title>
+<!--https://github.com/MeepMutyala/tsawebsite2018-->
 
-<link rel="stylesheet" href="CSS/main.css" type="text/css" />
-<link rel="stylesheet" href="CSS/font-awesome.min.css" type="text/css" />
-</head>
+<!doctype html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+<link rel="stylesheet" href="main.css">
+      <!--Main page: Company/Product-->
+      <title>AZCA Tech | Home</title>
+    </head>
+    <body> <!-- background="images/engineeringlab.JPG"-->
 
-<body id="index" class="home">
-    <header class=fade>
-      <div class="container">
-        <div id="branding">
-          <img class="logo" src="images/azcatechtransparentlogo.png" height="50"><h1>AZCA Technologies</h1>
+      <!--Nav Bar-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="index.html">AZCA Tech</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" style="">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="product.html">Design Solution</a>
+            </li>
+            <li class="nav-item dropdown">
+              <!--dropdown does not work yet. I think it has something to do with the variable stylesheet (.scss) that
+              allows the box to change when clicked, but I don't know how to integrate or use the variable stylesheet-->
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">MOT Charter High School</a>
+                  <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 38px, 0px);">
+                    <a class="dropdown-item" href="history.html">History</a>
+                    <a class="dropdown-item" href="aboutourschool.html">About Our School</a>
+                    <a class="dropdown-item" href="leadershipteam.html">Leadership Team</a>
+                    <a class="dropdown-item" href="school.html">Our School's Programs</a>
+                    <a class="dropdown-item" href="tsa.html">TSA</a>
+                  </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+          </form>
         </div>
-      <nav>
-      <ul>
-        <li class="current"><a href="index.html"> Home </a></li>
-        <li><a href="about.html">About</a></li>
-        <div class="dropdown">
-        <button class="dropbtn"><a href="product.html">Design Solution</a></button>
-          <div class="dropdown-content">
-           <a href="product.html"> Our Product</a>
-          </div>
-        </div>
-        <div class="dropdown">
-        <button class="dropbtn"><a href="aboutourschool.html">MOT Charter High School </a></button>&nbsp &nbsp
-        <div class="dropdown-content">
-            <a href="chapterhistory.html">History</a>
-            <a href="aboutourschool.html">About our School</a>
-            <a href="leadershipteam.html">Leadership Team</a>
-            <a href="school.html">Our School's Programs</a>
-          <a href="tsa.html">TSA</a>
-    </div>
-  </div> 
-        </ul>
-        </nav>
+      </nav>
+
+      <!--<img src="images/engineeringlabblur1.JPG" width=100%>-->
+      <!--sections-->
+
+      <div id="bg1">
+      <div class="jumbotron">
+        <h1 class="display-3">Amrai</h1>
+        <p class="lead">A new revolutionary tool advancing the future of business, education, and technology.</p>
+        <hr class="my-4">
+        <p>AZCA Technologies is a company that specializes in technological innovation. Our mission is to
+          implement artificial intelligence in technology, increasing the capabilities of technology to aid the human world.
+           One of the major projects we have been working on is Amrai (Applicable Machine Robot Artificial Intelligence), a
+           robot that aims to provide assistance in both business and education fields. We have identified the tedious
+           tasks students, teachers, and office workers can use assistance in and designed Amrai as a solution to them.
+           Amrai utilizes artificial intelligence to act as a mobile printer, deliver materials and paper, help format documents,
+           place calls, and grade short responses.</p>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="product.html" role="button">Learn more</a>
+        </p>
       </div>
-    </header>
-  
-  <section id="front">
-  <div class="container">
+    </div>
 
-    <div class="textboxleft">
-       <homeheader>A new revolutionary tool advancing the future of business, education, and technology.</homeheader>
-      <br>
-      <br>
-      AZCA Technologies is a company that specializes in technological innovation. Our mission is to implement artificial intelligence in technology, 
-      increasing the capabilities of technology to aid the human world. One of the major projects we have been working on is Amrai (Applicable Machine Robot 
-      Artificial Intelligence), a robot that aims to provide assistance in both business and education fields. We have identified the 
-      tedious tasks students, teachers, and office workers can use assistance in and designed Amrai as a solution to them. Amrai utilizes 
-      artificial intelligence to act as a mobile printer, deliver materials and paper, help format documents, place calls, and grade short responses.
-      <a href="product.html">Learn More</a>
+    <div id="bg2">
+      <div class="jumbotron">
+        <h1 class="display-3">Designed to help you.</h1>
+        <p class="lead">Amrai was created by AZCA Technologies after identifying and assessing problems, difficulties, and tedious
+          tasks students, teachers, and business workers face in today's society. Amrai will be able to assist in several tasks,
+          including, but not limited to:</p>
+        <hr class="my-4">
+        <p><ul>
+          <li>Printing papers and distributing them to students or peers</li>
+          <li>Making calls and scheduling meetings</li>
+          <li>Organizing and formatting files</li>
+          <li>Grading short responses</li>
+          <li>Acting as a substitute teacher or assistant</li></ul></p>
+      </div>
+    </div>
 
+    <div id="bg3">
+      <div class="jumbotron">
+        <h1 class="display-3">Who are we? </h1>
+        <p class="lead">Our product is a solution to a design brief presented to our team in Technology Student Association, and
+           our team is part of MOT Charter High School's TSA Chapter. MOT Charter High is a school that includes both a STEM academy
+           and an Arts academy that are designed to help students find their interests and reach their career goals. In the STEM
+           academy, students can choose to major in Engineering, Computer Science, or Biotechnology</p>
+           <hr class="my-4">
+           <p class="lead">
+             <a class="btn btn-primary btn-lg" href="aboutourschool.html" role="button">Read More About Our School</a>
+           </p>
+      </div>
     </div>
-      
-    </div>
-  </section>
-  
-  <section id="middle">
-  <div class="container">
-    <div class="textboxright"> 
-          <homeheader> Designed to help you.</homeheader>
-      <br>
-      <br>
-      Amrai was created by AZCA Technologies after identifying and assessing problems, difficulties, and tedious tasks
-      students, teachers, and business workers face in today's society. Amrai will be able to assist in several tasks, 
-      including, but not limited to:
-      <ul>
-        <li>Printing papers and distributing them to students or peers</li>
-        <li>Making calls and scheduling meetings</li>
-        <li>Organizing and formatting files</li>
-        <li>Grading short responses</li>
-        <li>Acting as a substitute teacher or assistant</li>
-      </ul>
-    </div>
-    </div>
-  </section>
-  
-  <section id="bottom">
-  <div class="container">
-    <div class="textboxbottom"> 
-          <homeheader> Who are we? </homeheader>
-     <br>
-     <br>
-    Our product is a solution to a design brief presented to our team in Technology Student Association, and
-      our team is part of MOT Charter High School's TSA Chapter. MOT Charter High is a school that includes 
-      both a STEM academy and an Arts academy that are designed to help students find their interests and reach their career 
-      goals. In the STEM academy, students can choose to major in Engineering, Computer Science, or Biotechnology
-      <a href="aboutourschool.html">Read more about our team here.</a>
-    </div>
-    </div>
-  </section>
-  
-  <footer>
-  <p>
-    AZCA Technologies is a fictional company created by students to design a creative solution to a brief given by the Technology Student Association. 
-    Students were tasked with implementing their creative solution to the brief in designing a website. Thank you for visiting our page, please note 
-    again that our product is fictional, although the information regarding the Technology Student Association and MOT Charter High School is nonfictional and 
-    factually correct.
-    </p>
-  
-  </footer>
-</body>
-</html>
+
+
+</header>
+    </body>
+  </html>
