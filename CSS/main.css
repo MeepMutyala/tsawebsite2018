@@ -46,7 +46,7 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 
-imgright {
+div.imgright {
 	float: right;
 }
 
