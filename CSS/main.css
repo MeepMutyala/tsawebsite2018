@@ -4400,23 +4400,6 @@ input[type="button"].btn-block {
   }
 }
 
-header nav ul{
-	overflow: hidden;
-	height:0
-}
-
-header nav ul.open {
-	height: auto;
-	
-}
-header nav ul li {
-	float: none;
-	text-align: left;
-	width: 100%
-	margin: 0;
-}
-	
-	
 @media (max-width: 767.98px) {
   .navbar-expand-md > .container,
   .navbar-expand-md > .container-fluid {
