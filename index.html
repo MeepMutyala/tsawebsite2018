@@ -1,14 +1,12 @@
-<!--https://github.com/MeepMutyala/tsawebsite2018-->
-
 <!doctype html>
   <html>
     <head>
       <meta charset="utf-8">
-		<link rel="stylesheet" href="CSS/main.css" />
+<link rel="stylesheet" href="main.css">
       <!--Main page: Company/Product-->
       <title>AZCA Tech | Home</title>
     </head>
-    <body> <!-- background="images/engineeringlab.JPG"-->
+    <body>
 
       <!--Nav Bar-->
       <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -28,17 +26,18 @@
             <li class="nav-item">
               <a class="nav-link" href="product.html">Design Solution</a>
             </li>
-            <li class="nav-item dropdown">
-              <!--dropdown does not work yet. I think it has something to do with the variable stylesheet (.scss) that
-              allows the box to change when clicked, but I don't know how to integrate or use the variable stylesheet-->
-              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">MOT Charter High School</a>
-                  <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 38px, 0px);">
-                    <a class="dropdown-item" href="history.html">History</a>
-                    <a class="dropdown-item" href="aboutourschool.html">About Our School</a>
-                    <a class="dropdown-item" href="leadershipteam.html">Leadership Team</a>
-                    <a class="dropdown-item" href="school.html">Our School's Programs</a>
-                    <a class="dropdown-item" href="tsa.html">TSA</a>
+                <div class="dropdown">
+                  <li class="nav-link">MOT Charter High School &#9662;</li>
+                  <div class="dropdown-content">
+                    <a href="history.html">History</a><br>
+                    <a href="aboutourschool.html">About Our School</a><br>
+                    <a href="leadershipteam.html">Leadership Team</a><br>
+                    <a href="school.html">Our School's Programs</a><br>
+                    <a href="tsa.html">TSA</a>
                   </div>
+                </div>
+            <li class="nav-item">
+              <a class="nav-link" href="resources.html">Resources</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
